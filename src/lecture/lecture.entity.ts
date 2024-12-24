@@ -18,5 +18,5 @@ export class Lecture {
     capacity: number;
 
     @Column({ default: 0 })
-    currentEnrollment: number;
+    occupiedSeats: number;
 }
