@@ -3,8 +3,10 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { LoggerMiddleware } from './middleware/logger.middleware';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { Lecture } from './common/entity/lecture.entity';
-import { LectureModule } from './domain/lecture/lecture.module';
+import { Lecture } from './lecture/lecture.entity';
+import { LectureModule } from './lecture/lecture.module';
+
+
 
 @Module({
   imports: [
