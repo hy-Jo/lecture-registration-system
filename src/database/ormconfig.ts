@@ -1,6 +1,6 @@
 import { TypeOrmModuleOptions } from '@nestjs/typeorm';
-import { Enrollment } from 'src/enrollment/entrollment.entity';
-import { Lecture } from 'src/lecture/lecture.entity';
+import { Enrollment } from 'src/domain/enrollment/entity/entrollment.entity';
+import { Lecture } from 'src/domain/lecture/entity/lecture.entity';
 
 const ormconfig: TypeOrmModuleOptions = {
   type: 'mysql',

@@ -1,5 +1,4 @@
-import { Enrollment } from "./entrollment.entity";
-
+import { Enrollment } from "./entity/entrollment.entity";
 
 export interface IEnrollmentsRepository {
   findOne(userId: number, lectureId: number): Promise<Enrollment | null>;

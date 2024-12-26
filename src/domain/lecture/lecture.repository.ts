@@ -1,4 +1,4 @@
-import { Lecture } from './lecture.entity';
+import { Lecture } from "./entity/lecture.entity";
 
 export interface ILectureRepository {
   findAll(): Promise<Lecture[]>;

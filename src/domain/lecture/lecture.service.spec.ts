@@ -1,9 +1,9 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { LectureService } from './lecture.service';
 import { getRepositoryToken } from '@nestjs/typeorm';
-import { Lecture } from './lecture.entity';
+import { Lecture } from './entity/lecture.entity';
 import { Repository } from 'typeorm';
-import { Enrollment } from 'src/enrollment/entrollment.entity';
+import { Enrollment } from 'src/domain/enrollment/entity/entrollment.entity';
 
 describe('LectureService', () => {
   let service: LectureService;
