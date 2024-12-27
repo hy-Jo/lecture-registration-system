@@ -1,5 +1,6 @@
 # lecture-registration-system
 hhplus w2: TTD&amp;Clean architecture
+![image](https://github.com/user-attachments/assets/d79e97ac-021d-4dea-87d3-99e62bb23b9b)
 
 ![alt text](image-1.png)
 ## 특강 신청 시스템 ERD 설계
